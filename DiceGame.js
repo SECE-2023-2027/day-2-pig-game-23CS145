@@ -54,7 +54,7 @@ hold.addEventListener("click", () => {
     totalScore1 += currentScore;
     score1.textContent = totalScore1;
     curr1.textContent = 0;
-    if (totalScore1 >= 10) {
+    if (totalScore1 >= 100) {
       score1.textContent="PLAYER 1 WINS";
       score1.style.fontSize = "40px";
     } else {
@@ -64,7 +64,7 @@ hold.addEventListener("click", () => {
     totalScore2 += currentScore;
     score2.textContent = totalScore2;
     curr2.textContent = 0;
-    if (totalScore2 >= 10) {
+    if (totalScore2 >= 100) {
       score2.textContent="PLAYER 2 WINS";
       score2.style.fontSize = "40px";
     } else {
