@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Roll Game</title>
+    <link rel="stylesheet" href="DiceGame.css">
+    <script src="DiceGame.js" defer></script>
 </head>
-<link rel="stylesheet" href="DiceGame.css">
-<script src="DiceGame.js" async></script>
 <body>
     <div class="players">
         <div class="player-01">
-        <h1>Player 1</h1>
-        <span class="score1">0</span>
+            <h1>Player 1</h1>
+            <span class="score1">0</span>
             <div class="current-score-1">
                 <p>CURRENT</p>
                 <span class="current-score-player1">0</span>
@@ -19,8 +19,8 @@
         </div>
 
         <div class="player-02">
-        <h1>Player 2</h1>
-        <span class="score2">0</span>
+            <h1>Player 2</h1>
+            <span class="score2">0</span>
             <div class="current-score-2">
                 <p>CURRENT</p>
                 <span class="current-score-player2">0</span>
@@ -28,12 +28,12 @@
         </div>
 
         <div class="middle">
+            <h1 id="turn-indicator">Player 1's Turn</h1>
             <button class="btn" id="new-game">NEW GAME</button>
-            <img src="1.jpg" width="80px" height="80px">
+            <img src="1.jpg" width="80px" height="80px" alt="Dice">
             <button class="btn" id="dice">ROLL DICE</button>
-            <button class="btn" id="hold" style="position: relative; bottom: 50px;">HOLD</button>
+            <button class="btn" id="hold">HOLD</button>
         </div>
-        
     </div>
 </body>
 </html>
